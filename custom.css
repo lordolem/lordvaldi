@@ -1,0 +1,17 @@
+.UrlBar-AddressField {
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+.UrlBar.toolbar.toolbar-mainbar.toolbar-large {
+    justify-content: center;
+}
+
+.tab.active .favicon {
+    filter: none !important;
+}
+
+.speeddial .dial {
+    background-color: #bbbbbb6b;
+    border-radius: 40px;
+}

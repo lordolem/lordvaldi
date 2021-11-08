@@ -37,10 +37,6 @@
  justify-content: center;
 }
 
-.UrlBar.toolbar.toolbar-mainbar.toolbar-large { /* THE WHOLE TOP */
-
-}
-
 .toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-large { /* LEFT SIDE BUTTONS */
     margin-right: auto;
 }
@@ -52,10 +48,6 @@
 
 .button-toolbar.button-circularimage.button-cropimage.profile-popup { /* PROFILE IMAGE */
     margin-left: auto;
-}
-
-.toolbar.toolbar-mainbar.toolbar-extensions.toolbar-large { /* EXTENSIONS */
-    marigin-left: auto;
 }
 
 .ToolbarButton-Button{

@@ -1,8 +1,3 @@
-.UrlBar-AddressField {
-    max-width: 1000px;
-    border-radius: 10px;
-}
-
 .UrlBar.toolbar.toolbar-mainbar.toolbar-large {
     justify-content: center;
 }
@@ -15,14 +10,57 @@
     background-color: #6868686b;
     border-radius: 40px;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 .speeddial:hover .dial:hover {
     border-radius: 20px;
-    background-color: #bbbbbb6b;  
+    background-color: #bbbbbb6b;
+}
+::-webkit-input-placeholder {
+   text-align: center;
 }
 
-.tab-position .tab .tab-header {
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+/*Bookmark centered*/
+.bookmark-bar .observer {
+ justify-content: center;
+}
+
+.UrlBar.toolbar.toolbar-mainbar.toolbar-large { /* THE WHOLE TOP */
+
+}
+
+.toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-large { /* LEFT SIDE BUTTONS */
+    margin-right: auto;
+}
+
+.UrlBar-AddressField { /* ADDRESS FIELD */
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.button-toolbar.button-circularimage.button-cropimage.profile-popup { /* PROFILE IMAGE */
+    margin-left: auto;
+}
+
+.toolbar.toolbar-mainbar.toolbar-extensions.toolbar-large { /* EXTENSIONS */
+    marigin-left: auto;
+}
+
+.ToolbarButton-Button{
+    cursor: pointer;
+}
+.close {
     cursor: pointer;
 }

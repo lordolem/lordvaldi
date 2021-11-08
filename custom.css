@@ -22,3 +22,7 @@
     border-radius: 20px;
     background-color: #bbbbbb6b;  
 }
+
+.tab-position .tab .tab-header {
+    cursor: pointer;
+}

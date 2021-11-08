@@ -12,6 +12,13 @@
 }
 
 .speeddial .dial {
-    background-color: #bbbbbb6b;
+    background-color: #6868686b;
     border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.speeddial:hover .dial:hover {
+    border-radius: 20px;
+    background-color: #bbbbbb6b;  
 }

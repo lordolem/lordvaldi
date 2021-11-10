@@ -13,6 +13,10 @@
     transition: 0.3s all ease-in-out;
 }
 
+.speeddial .dial:last-of-type {
+    border-radius: 40px;
+}
+
 .speeddial:hover .dial:hover {
     border-radius: 20px;
     background-color: #bbbbbb6b;
